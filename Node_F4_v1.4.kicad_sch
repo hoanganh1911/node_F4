@@ -7083,7 +7083,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x09") (at 54.61 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a20ced64-33cc-4c5f-9ebb-67e3de71ad6f)
-    (property "Reference" "J?" (id 0) (at 57.15 193.0399 0)
+    (property "Reference" "J1" (id 0) (at 57.15 193.0399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Screw_Terminal_01x09" (id 1) (at 57.15 195.5799 0)
@@ -7409,7 +7409,7 @@
   (symbol (lib_id "power:GNDREF") (at 31.75 201.93 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid af3ac857-dd8e-4784-92ee-7d191ec5a304)
-    (property "Reference" "#PWR?" (id 0) (at 31.75 195.58 0)
+    (property "Reference" "#PWR0102" (id 0) (at 31.75 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (id 1) (at 35.56 198.12 0)
@@ -8139,6 +8139,9 @@
     (path "/a9d52abe-a526-45bf-9ad2-f847ab72abc3"
       (reference "#PWR0101") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/af3ac857-dd8e-4784-92ee-7d191ec5a304"
+      (reference "#PWR0102") (unit 1) (value "GNDREF") (footprint "")
+    )
     (path "/f840a601-70b7-488e-8299-6289e9e09ecc"
       (reference "#PWR0103") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -8295,9 +8298,6 @@
     (path "/7818634d-d498-4c1c-82b2-18258c93a619"
       (reference "#PWR0158") (unit 1) (value "GND") (footprint "")
     )
-    (path "/af3ac857-dd8e-4784-92ee-7d191ec5a304"
-      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
-    )
     (path "/e79c523e-5bda-47a2-9098-db791a1676cd"
       (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "IVS_FOOTPRINTS:BatteryHolder_CR1220")
     )
@@ -8427,6 +8427,9 @@
     (path "/3b12f4a2-613a-433b-9966-6b3fa6da4ae6"
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
     )
+    (path "/a20ced64-33cc-4c5f-9ebb-67e3de71ad6f"
+      (reference "J1") (unit 1) (value "Screw_Terminal_01x09") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-9_1x09_P5.00mm_Horizontal")
+    )
     (path "/5825f3f3-cb85-465a-8d89-39ae74babb06"
       (reference "J6") (unit 1) (value "Conn_01x16_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical")
     )
@@ -8435,9 +8438,6 @@
     )
     (path "/04a2cc76-4005-4046-a1f2-11f31606f54b"
       (reference "J8") (unit 1) (value "STLINK") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
-    )
-    (path "/a20ced64-33cc-4c5f-9ebb-67e3de71ad6f"
-      (reference "J?") (unit 1) (value "Screw_Terminal_01x09") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-9_1x09_P5.00mm_Horizontal")
     )
     (path "/c09e0fa3-9a7c-4b7a-ba41-09c83225f659"
       (reference "L1") (unit 1) (value "L_Coupled_1324") (footprint "IVS_FOOTPRINTS:ACFilterChokeUU9.8")
